@@ -17,7 +17,7 @@ public class BrowserFactory {//this class contains the init() and teardown() and
 		//returning web driver in the init() because we want to use the same web driver in LoginTest class of test package
 		System.setProperty("webdriver.chrome.driver", "/Users/comet/SeleniumWorkspace/driver/chromedriver");
 		ChromeOptions options=new ChromeOptions();
-		options.addArguments("HEADLESS");
+		options.addArguments("headless");
 		driver = new ChromeDriver(options);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();

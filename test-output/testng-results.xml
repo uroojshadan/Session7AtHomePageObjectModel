@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-07T16:53:04 CST" name="Default suite" finished-at="2023-01-07T16:53:19 CST" duration-ms="14989">
+  <suite name="Default suite" duration-ms="4072" started-at="2023-01-25T10:05:29 CST" finished-at="2023-01-25T10:05:33 CST">
     <groups>
     </groups>
-    <test started-at="2023-01-07T16:53:04 CST" name="Default test" finished-at="2023-01-07T16:53:19 CST" duration-ms="14989">
-      <class name="test.AddCustomerTest">
-        <test-method signature="userShouldBeAbleToAddCustomer()[pri:0, instance:test.AddCustomerTest@13b13b5d]" started-at="2023-01-07T16:53:04 CST" name="userShouldBeAbleToAddCustomer" finished-at="2023-01-07T16:53:19 CST" duration-ms="14965" status="PASS">
+    <test name="Default test" duration-ms="4072" started-at="2023-01-25T10:05:29 CST" finished-at="2023-01-25T10:05:33 CST">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@1e965684]" name="validUserShouldBeAbleToLogin" duration-ms="4044" started-at="2023-01-25T10:05:29 CST" finished-at="2023-01-25T10:05:33 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userShouldBeAbleToAddCustomer -->
-      </class> <!-- test.AddCustomerTest -->
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+      </class> <!-- test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
